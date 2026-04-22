@@ -14,7 +14,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-
+void jsl();
 
 
 
@@ -324,6 +324,7 @@ int main(int argc, char *argv[])
                         }
 			case 59:
                         {
+				jsl();
                                 puts("room59");
                                 break;
                         }
@@ -423,3 +424,8 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
+void jsl(void)
+{
+	printf("JSL\n");
+}
